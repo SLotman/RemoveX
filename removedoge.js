@@ -6,7 +6,6 @@
 // ==/UserScript==
 
 function removeDoge() {
-  alert('bop!');
   var images = document.getElementsByTagName('svg');
   if (images.length<1) {
   	setTimeout(removeDoge, 0);
