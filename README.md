@@ -1,2 +1,2 @@
 # RemoveDoge
-A Greasemonkey script to remove Doge image from Twitter
+A [Greasemonkey](https://www.greasespot.net/) script to remove Doge image from Twitter
