@@ -1,4 +1,5 @@
 # RemoveDoge
 A [Greasemonkey](https://www.greasespot.net/) script to remove Doge image from Twitter
 
-Update 24/07/2023: Now it removes the dreadful "X".
+Update #1: 24/07/2023: Now it removes the dreadful "X".
+Update #2: 24/07/2023: Now also fixing the favicon.
