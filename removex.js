@@ -9,7 +9,7 @@ var siteLoaded = false;
 var logoRemoved = false;
 var contentLoaded = false;
 
-console.log('remove doge started!');
+console.log('remove x started!');
 removeLoadingImage();
 
 window.addEventListener ("DOMContentLoaded", function() {
@@ -47,11 +47,11 @@ function replaceFavIcon() {
 function removeLoadingImage(){  
   if (siteLoaded) return; // too late
   
-  console.log('trying to remove doge loading image...');
+  console.log('trying to remove x loading image...');
 	GM_addStyle("#placeholder { display: none !important; }");
   let pd = document.getElementById("placeholder")
   if (pd!=undefined && pd!=null) { 
-    console.log('loading doge found!');
+    console.log('loading x found!');
     pd.remove(); 
   } else { setTimeout(removeLoadingImage, 0);  }
   replaceFavIcon();
