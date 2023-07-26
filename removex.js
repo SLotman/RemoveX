@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Remove X
-// @version  1.1f
+// @version  1.2
 // @include  https://twitter.com*
 // @run-at   document-start
 // @author   SLotman
@@ -12,6 +12,7 @@ var contentLoaded = false;
 console.log('remove x started!');
 removeLoadingImage();
 removeX();
+replaceFavIcon();
 
 window.addEventListener ("DOMContentLoaded", function() {
   contentLoaded = true;
