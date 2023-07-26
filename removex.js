@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     Remove doge
+// @name     Remove X
 // @version  1.1f
 // @include  https://twitter.com*
 // @run-at   document-start
